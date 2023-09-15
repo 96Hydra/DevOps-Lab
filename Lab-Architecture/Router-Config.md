@@ -25,3 +25,29 @@ We're going to ensure IPv6 is disabled, but _do_ ensure DHCP is selected.
 For the malware lab/lab where we want things isolated, I would start with a new schema, either 172.x.x.x, or 10.x.x.x to ensure you do not get confused with the infastructure side. 
 
 Once this is complete, we're ready to get to the next screen. 
+
+
+# OPNSense Installer
+
+Once you wrap up your config of your IP addresses, you can sign out by pressing '0' and then signing into the 'installer' user utilizing the same 'opnsense' password. Very secure.
+
+![image](https://github.com/96Hydra/DevOps-Lab/assets/97918012/268857b0-9555-42e4-a096-d589a8635505)
+
+We're going to stick with the default install and ignore any memory/storage warnings.
+
+![image](https://github.com/96Hydra/DevOps-Lab/assets/97918012/5be552f5-f054-4064-9c9a-b1feb650f097)
+
+Ensure you have hard disk selected for your installation: 
+
+![image](https://github.com/96Hydra/DevOps-Lab/assets/97918012/d5c06c1c-7734-4e4f-a3f3-97a0c58f0662)
+
+After this, just answer yes to everything and anything that comes up. Even if it means having to give up your first born. I unfortunately do not make the rules here.
+
+While the install process is running, feel free to go grab something to snack on, a drink, etc. It may take a bit
+
+![image](https://github.com/96Hydra/DevOps-Lab/assets/97918012/8b4cc0e0-c95a-471d-8dec-2a68e682fb47)
+
+
+Before you continue, please update your root password. You do not want to leave it as the super secure password opnsense provided us.
+
+Now that this is complete, for now, let's move on to the next part.
