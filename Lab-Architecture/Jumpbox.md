@@ -34,3 +34,5 @@ Keep the Konsole open and run
 `sudo systemctl restart NetworkManager` 
 
 This will restart your network settings and bring up the one we just configured. 
+
+I won't go over the firewall configuration, interface renaming, etc. If you would like to get into that, I would strongly suggest checking out the documentation for opnsense. Essentially we are just allowing traffic from our jumpbox to the rest of our internal network. 
